@@ -29,8 +29,8 @@ OpenCore EFI for install MacOS Ventura
   
 
 ## Installation
-* XHCI mode -> Smart Auto
-* Disable CSM
+* BIOS: XHCI mode -> Smart Auto
+* BIOS: CSM disabled
 * **Set your own SMBIOS serial numbers in config.plist**
 
 If you want VoodooHDA.kext instead of AppleAlc, the kext from addons have to be copied to /Library/Extensions folder with command:
